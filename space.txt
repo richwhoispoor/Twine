@@ -1,0 +1,18 @@
+{<!-- set up the gamespace -->
+(set: $x to (text-colour: red))
+(set: $Weapon to "None")
+(set: $Credits to 0)
+(Set: $TypeShip to "transport")
+(Set: $ShipGuns to 1)
+(Set: $ShipGunsDamage to (random: 1,10))
+(Set: $ShipCargo to 80)
+(Set: $ShipCurrentCargo to 0)
+(Set: $CargoValue to 0)
+(set: $DroidsNumber to 5)
+(set: $Food to 5)
+(set: $Fuel to 3)
+(set: $Shields to 100)
+(set: $ShipDamage to 100)
+(set: $CharacterName to (prompt: "Please type your character name, please:", "My name"))
+(set: $ShipsName to (prompt: "Please type your ships name, please:", "Ships name"))
+(set: $TempVar to " ")}
